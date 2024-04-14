@@ -382,12 +382,13 @@ footer .container {
 }
 
 /* ---------------Phone Portrait --------------- */
-@media (max-width: 320px) {
+
+@media (max-width: 415px) {
   .hero-content h2 {
-    display: none;
+    font-size: 18px;
   }
   .hero-content h1 {
-    font-size: 42px;
+    font-size: 38px;
   }
   .about-display {
     flex-direction: column;
@@ -435,5 +436,13 @@ footer .container {
   }
   .contacct-form-area {
     width: 100%;
+  }
+}
+@media (max-width: 330px) {
+  .hero-content {
+    margin-top: 100px;
+  }
+  .hero-content h2 {
+    display: none;
   }
 }
